@@ -235,7 +235,6 @@ A few specific things this project forced me to actually understand:
 ## Built By
 
 **Yatendra Dixit**  
-B.Tech CSE | Cybersecurity Enthusiast  
-Agra, India
+B.Tech(Cyber Security) | Cybersecurity Enthusiast  
 
 *This project was built as a hands-on exploration of EDR architecture and SIEM integration — not from a tutorial, but by reading documentation, breaking things, and figuring out why.*
