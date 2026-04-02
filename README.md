@@ -84,7 +84,19 @@ All screenshots are in the `/docs` folder.
 | `wazuh_logic_validation.jpeg` | **`wazuh-logtest` output — Rule 100001 firing at Level 12** |
 
 The logtest screenshot is the core proof. Even when the dashboard has sync latency (common in VM environments with limited RAM/CPU), the backend logic is confirmed working.
+### 📸 Visual Proof of Work
 
+#### 1. EDR Detection (PowerShell)
+![EDR Alert](docs/edr_detection.png)
+*Script catching certutil abuse in real-time.*
+
+#### 2. Logic Validation (Wazuh Logtest)
+![Logtest Proof](docs/wazuh_logic_validation.jpeg)
+*Rule 100001 triggering Level 12 alert on the manager.*
+
+#### 3. SIEM Dashboard
+![Wazuh Dashboard](docs/wazuh_dashboard2.jpeg)
+*Active agent connectivity and event monitoring.*
 ---
 
 ## How to Run It
