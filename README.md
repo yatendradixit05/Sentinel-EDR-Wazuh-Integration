@@ -67,23 +67,6 @@ A Wazuh Agent on the same machine tails that file and forwards the data over the
 
 ---
 
-## Proof of Work
-
-All screenshots are in the `/docs` folder.
-
-| File | What It Shows |
-|---|---|
-| `agent_status.png` | Wazuh Agent running and connected on Windows |
-| `edr_detection.png` | Script catching `certutil` live — red alert in terminal |
-| `wazuh_dashboard1.jpeg` | Main Wazuh dashboard — deployment confirmation |
-| `wazuh_dashboard2.jpeg` | Dashboard view 2 — event ingestion visible |
-| `wazuh_events1.jpeg` | Security events list from the manager |
-| `wazuh_events2.jpeg` | Second batch of security events |
-| `wazuh_events_filtered1.jpeg` | Filtered view isolating Sentinel EDR events |
-| `wazuh_events_filtered2.jpeg` | Filtered view 2 |
-| `wazuh_logic_validation.jpeg` | **`wazuh-logtest` output — Rule 100001 firing at Level 12** |
-
-The logtest screenshot is the core proof. Even when the dashboard has sync latency (common in VM environments with limited RAM/CPU), the backend logic is confirmed working.
 ### 📸 Visual Proof of Work
 
 #### 1. EDR Detection (PowerShell)
