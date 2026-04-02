@@ -1,0 +1,24 @@
+<group name="windows,sentinel_edr,access_control,">
+
+  <rule id="100001" level="12">
+    <decoded_as>json</decoded_as>
+    <field name="Threat">Critical</field>
+    <description>Sentinel EDR: Critical Threat Detected on Endpoint!</description>
+    <mitre>
+      <id>T1059</id>
+    </mitre>
+  </rule>
+
+  <rule id="100002" level="10">
+    <if_sid>60122</if_sid>
+    <description>User login failed - Possible Brute Force attempt.</description>
+    <group>authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+  </rule>
+
+  <rule id="100003" level="3">
+    <if_sid>60106</if_sid>
+    <description>User logged in successfully.</description>
+    <group>authentication_success,</group>
+  </rule>
+
+</group>

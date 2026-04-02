@@ -1,0 +1,11 @@
+<localfile>
+  <location>C:\Sentinel-EDR\logs\Alerts.json</location>
+  <log_format>json</log_format>
+</localfile>
+
+<ossec_config>
+  <localfile>
+    <location>Security</location>
+    <log_format>eventchannel</log_format>
+  </localfile>
+</ossec_config>

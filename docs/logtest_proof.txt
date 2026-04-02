@@ -1,0 +1,27 @@
+┌──(kali㉿kali)-[~/Desktop]
+└─$ sudo /var/ossec/bin/wazuh-logtest
+Starting wazuh-logtest v4.7.5
+Type one log per line
+
+{"Threat":"Critical", "Process":"certutil.exe", "Command":"certutil -urlcache"}
+
+**Phase 1: Completed pre-decoding.
+	full event: '{"Threat":"Critical", "Process":"certutil.exe", "Command":"certutil -urlcache"}'
+
+**Phase 2: Completed decoding.
+	name: 'json'
+	Command: 'certutil -urlcache'
+	Process: 'certutil.exe'
+	Threat: 'Critical'
+
+**Phase 3: Completed filtering (rules).
+	id: '100001'
+	level: '12'
+	description: 'Sentinel EDR: Critical Threat Detected on Endpoint!'
+	groups: '['windows', 'sentinel_edr', 'access_control']'
+	firedtimes: '1'
+	mail: 'True'
+	mitre.id: '['T1059']'
+	mitre.tactic: '['Execution']'
+	mitre.technique: '['Command and Scripting Interpreter']'
+**Alert to be generated.
