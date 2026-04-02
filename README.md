@@ -122,7 +122,7 @@ If not, create it manually. The script will create `Alerts.json` inside it when 
 Open **PowerShell as Administrator** and navigate to the script:
 
 ```powershell
-cd C:\Users\Yatendra\Desktop\Sentinel-EDR-Wazuh\src
+cd C:\Users\<YourUsername>\Desktop\Sentinel-EDR-Wazuh\src
 .\Sentinel_Monitor.ps1
 ```
 
